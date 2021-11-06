@@ -10,6 +10,11 @@ html {
   background-size: cover;
 }
 
+.container {
+	display: flex;
+	flex-wrap: wrap;
+}
+
 h1 {
   font-size: 3rem;
   color: #e2dbdb;
@@ -34,6 +39,7 @@ hr {
   font-weight: 700;
   border-radius: 300px;
   text-transform: uppercase;
+  margin: 5px;
 }
 
 .btn-primary {
